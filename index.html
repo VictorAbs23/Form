@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>MUNDIAL DE CLUBES</title>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Formulário </h2>
+        <form id="registrationForm">  
+            <div class="form-group">
+                <label for="pedido">Número de pedido ou proposta</label>
+                <input type="text" id="pedido" name="pedido">
+            </div>
+            
+            <div class="form-group">
+                <label for="nome">Nome do comprador</label>
+                <input type="text" id="nome" name="nome">
+            </div>
+        
+            <div class="form-group">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome" name="sobrenome">
+            </div>
+            <div class="form-group">
+                <label for="nascimento">Data de nascimento</label>
+                <input type="date" id="nascimento" name="nascimento">
+            </div>
+      
+            <div class="form-group">
+                <label for="nacionalidade">Nacionalidade</label>
+                <select id="nacionalidade" name="nacionalidade">
+                
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="telefone">Telefone</label>
+                <input type="tel" id="telefone" name="telefone">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div class="form-group">
+                <label for="pcd">Você é uma Pessoa com Deficiência (PCD)?</label>
+                <select id="pcd" name="pcd">
+                    <option value="">Selecione</option>
+                    <option value="nao">Não</option>
+                    <option value="sim">Sim</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="descricaoDeficienciaGroup" style="display: none;">
+               <label for="descricaoDeficiencia">Descreva a deficiência</label>
+               <textarea id="descricaoDeficiencia" name="descricaoDeficiencia" rows="4" cols="50"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="timeFutebol">Escolha um time de futebol</label>
+                <select id="timeFutebol" name="timeFutebol">
+                    <option value="">Selecione um time</option>
+                    <!-- As opções serão adicionadas pelo JavaScript -->
+                </select>
+            </div>
+            
+
+            <input type="submit" value="Enviar" class="button">
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
