@@ -65,11 +65,44 @@
                 <label for="timeFutebol">Escolha um time de futebol</label>
                 <select id="timeFutebol" name="timeFutebol">
                     <option value="">Selecione um time</option>
-                    <!-- As opções serão adicionadas pelo JavaScript -->
                 </select>
             </div>
-            
 
+            <div class="form-group">
+                <label for="acompanhantes">Há acompanhantes com você?</label>
+                <select id="acompanhantes" name="acompanhantes">
+                    <option value="">Selecione</option>
+                    <option value="nao">Não</option>
+                    <option value="sim">Sim</option>
+                </select>
+            </div>
+
+            <div class="form-group" id="quantidadeAcompanhantesGroup" style="display: none;">
+                <label for="quantidadeAcompanhantes">Quantos acompanhantes?</label>
+                <select id="quantidadeAcompanhantes" name="quantidadeAcompanhantes">
+                    <option value="">Selecione</option>
+                    
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    
+                </select>
+            </div>
+
+            <div id="acompanhantesCampos"></div>
+
+            <div class="form-group">
+                <label for="divisaoQuartos">Divisão de Quartos</label>
+                <textarea id="divisaoQuartos" name="divisaoQuartos" rows="5" cols="50" placeholder="Por favor, informe como será a divisão de quartos, com nome, sobrenome e tipo de cama. Exemplo: Felipe Cardoso e Mariana Santos - Cama casal. Guilherme Silva e Thiago Ferreira - Cama solteiro."></textarea>
+            </div>
+            
             <input type="submit" value="Enviar" class="button">
         </form>
     </div>
