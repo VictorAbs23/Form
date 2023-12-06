@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 
-    // Funções para criar e remover campos...
+    
 });
 
 //Lógica 
