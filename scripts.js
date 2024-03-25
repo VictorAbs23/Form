@@ -286,7 +286,7 @@ function preencherTimesFutebolAcompanhantes(quantidade) {
         "Flamengo", "Corinthians", "Barcelona", 
         "Real Madrid", "Manchester United", "Liverpool", 
         "Paris Saint-Germain", "Bayern Munich", "Juventus"
-        // Adicione mais times conforme necessário
+        
     ];
 
     for (let i = 0; i < quantidade; i++) {
